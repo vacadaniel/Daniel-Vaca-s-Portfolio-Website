@@ -56,70 +56,9 @@ nav ul li a:hover {
   }
 }
 
-  h1 {
-    font-size: 3em;
-    font-weight: bold;
-    color: #ffffff;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 9%, rgba(34,34,34,1) 47%, rgba(121,121,121,1) 100%, rgba(61,61,61,1) 100%);
-    /*background-image: linear-gradient(319deg, rgba(186, 45, 11, 0.8) 0%, rgba(254, 127, 45, 0.8) 37%, rgba(255, 191, 70, 0.8) 100%);*/
-    padding: 19px; /* Adds space inside the box */
-    border-radius: 20px; /* Optional: Rounded corners for the box */
-    width: 40%;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 80px; /* This pushes the h1 down below the navigation bar */
-    font-size: 36px;
-  }
 body {
-    font: Arial, sans-serif;
-    text-align: center; /* Center the content horizontally */
-    background-color: #201627; /* Fallback solid color */
-    background-image: linear-gradient(319deg, rgba(186, 45, 11, 0.8) 0%, rgba(254, 127, 45, 0.8) 37%, rgba(255, 191, 70, 0.8) 100%);
+  font: Arial, sans-serif;
+  text-align: center; /* Center the content horizontally */
+  background-color: #201627; /* Fallback solid color */
+  background-image: linear-gradient(319deg, rgba(186, 45, 11, 0.8) 0%, rgba(254, 127, 45, 0.8) 37%, rgba(255, 191, 70, 0.8) 100%);
 }
-
-  
-  h2 {
-    font-weight: bold;
-    color: #ffffff;
-    background-color: #000000; /* Highlight background */
-    padding: 1; /* Adds space inside the box */
-    border-radius: 20px; /* Optional: Rounded corners for the box */
-    width: 40%;
-    text-align: center;
-    margin: 0 auto;
-  }
-  .left-side {
-    flex: 1;
-  }
-
-  .left-side img {
-    max-width: 25%;
-    height: auto;
-    border: 5px solid black; /* Adds a black border around the image */
-    border-radius: 10px; 
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-}
-  
-  .right-side {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-
-  .right-side h2 {
-    font-weight: bold;
-    color: #ffffff;
-    background-color: #000000;
-    padding: 20px;
-    border-radius: 15px;
-    text-align: center;
-    width: 100%; /* You can adjust the width */
-}
-  .main-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    height: 80vh; /* Adjust height as needed */
-  }
