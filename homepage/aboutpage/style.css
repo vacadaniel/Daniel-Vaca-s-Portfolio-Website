@@ -90,6 +90,7 @@ h2 {
   margin-top: 80px; 
   margin: 20px auto;
   transition: background-color 0.3s ease, transform 0.2s ease;
+
 }
 
 h2:hover {
