@@ -37,7 +37,6 @@
 
         <p>Contact Form </p>
 
-        <form id="contact-form" action="https://example.com/contact" method="post">
                 <label for="full-name">Full Name:</label>
                  <input type="text" id="full-name" name="fullName" placeholder="Enter your full name" >
                    <br>     
@@ -47,8 +46,14 @@
                 <label for="message">Message:</label>
                  <textarea id="message" name="message" placeholder="Write your message here" rows="5" ></textarea>
                      <br>   
-                 <button type="submit">Send</button>
-            </form>
+                     <button onclick="Thankyou()">Send</button>
+                     <p id="empty"></p>
+
+                     <script>
+                        function Thankyou(){
+                            document.getElementById("empty").innerHTML = "Thank You";
+                        }
+                     </script>
     </h2>
 </body>
 </html>
