@@ -8,4 +8,4 @@ To access this website, you could start by downloading the files and navgating i
 1. Click on the green "Code" dropdown menu to download the zip file
 2. Unzip the file
 3. open the file and go to the homepage folder
-4. open the index.html to access the website's homepage.
+4. open the "index.html" to access the website's homepage.
