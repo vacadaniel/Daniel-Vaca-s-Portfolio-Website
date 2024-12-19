@@ -35,12 +35,18 @@
         <br>
         <br>
         <label for="Fname">Full Name:</label>
-        <input type="text" id=""Fname" name="Fname">
+        <input type="text" id="Fname" name="Fname">
         <label for="Fname">Email:</label>
-        <input type="text" id=""Fname" name="Fname"><br>
-        <p id="output">Contact Form </p>
-            <p id="output"></p>
-            <button onclick>Send</button>
+        <input type="text" id="Fname" name="Fname"><br>
+        <p>Contact Form </p>
+            <button onclick="Thankyou()"> Submit</button>
+
+            <script>
+                function Thankyou(){
+                    document.getElementById("empty").innerHTML = "Thank you "
+                }
+            </script>
+                    <p id="empty"></p>
     </h2>
 </body>
 </html>
